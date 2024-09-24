@@ -1,0 +1,39 @@
+* {
+  font-family: "Fira Code", SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+    Courier, monospace, Menlo, Monaco, "Courier New", monospace;
+  text-align: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+  margin-bottom: 15px;
+}
+
+.block {
+  display: inline-block;
+  padding: 40px;
+  background: #fae8df;
+  border-radius: 8px;
+  border-width: 70px;
+  border-color: black;
+}
+.one {
+  color: #824747;
+  text-shadow: #fae8df;
+}
+body {
+  background-color: #f3c2b1;
+}
